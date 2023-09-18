@@ -1,0 +1,48 @@
+:root {
+  /* app color */
+  --color-primary: var(--color-result);
+  /* color */
+  --color-result: #0274ae;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.4rem;
+  width: 50%;
+  align-items: center;
+}
+
+input {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+}
+
+button {
+  width: 50%;
+  background: var(--color-result);
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
+button:hover {
+  background: #035d8a;
+  color: white;
+}
+
+.result {
+  color: var(--color-result);
+  font-weight: bold;
+}
